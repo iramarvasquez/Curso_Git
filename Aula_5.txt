@@ -1,0 +1,79 @@
+    1  ls
+    2  ls -a
+    3  pwd
+    4  cd Desktop
+    5  pwd
+    6  ls
+    7  cd desktop.ini 
+    8  history
+    9  echo "" > readme.md
+   10  ls
+   11  cat readme.md
+   12  rm -r readme.md
+   13  ls
+   14  cat > readme.md
+   15  ls
+   16  rm -r readme.md
+   17  git branch
+   18  cd Desktop
+   19  ls
+   20  git config --global user.name
+   21  ls
+   22  git status
+   23  cd Curso_Git
+   24  git init
+   25  git status
+   26  echo '#Aprednendo usar o Git' > readme.md
+   27  git status
+   28  ls
+   29  git add readme.md
+   30  git status
+   31  got log
+   32  git log
+   33  clear
+   34  git bransh
+   35  clear
+   36  git branch
+   37  git checkout -b feature
+   38  git branch
+   39  touch Nova_feature
+   40  git status
+   41  git add Nova_feature 
+   42  got commit -m 'Adicionando nova feature'
+   43  git commit -m 'Adicionando nova feature'
+   44  git log
+   45  git checkout master
+   46  git status
+   47  git log
+   48  touch Continuando_master
+   49  touch Continuando_master
+   50  git commit -m 'Adicionado continuacion na master'
+   51  git add Continuando_master 
+   52  git commit -m 'Adicionado continuacion na master'
+   53  git log
+   54  git checkout feature
+   55  git log
+   56  git checkout -b feature 2 master
+   57  git log
+   58  git checkout -b feature2 master
+   59  git log
+   60  git checkout -d feature2
+   61  got checkout feature2
+   62  git checkout feature2
+   63  git log
+   64  git branch -d feature2
+   65  got checkout master
+   66  git checkout master
+   67  git branch -d feature2
+   68  git checkout feature2
+   69  clear
+   70  git checkout feature
+   71  git log --pretty=oneline --graph
+   72  git merge master
+   73  git log
+   74  git log --pretty=oneline --graph
+   75  git reset --hard HEAD~
+   76  git log --pretty=oneline --graph
+   77  git rebase master
+   78  git log --pretty=oneline --graph
+   79  history > Aula_5.txt
